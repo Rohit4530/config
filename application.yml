@@ -6,5 +6,5 @@ management:
 accounts:
   message: "Welcome to the Microservices"
   contactDetails: 
-     name: "Rohit Gunjal"
+     name: "Rohit Gunjal - Developer"
      email: "rohitgunjal547@gmail.com"
