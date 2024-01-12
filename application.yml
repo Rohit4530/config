@@ -1,5 +1,6 @@
-spring:
- application:
-   name: "accounts-service"
+
 accounts:
-  message: "hii"
+  message: "Welcome to the Microservices"
+  contactDetails: 
+     name: "Rohit Gunjal"
+     email: "rohitgunjal547@gmail.com"
