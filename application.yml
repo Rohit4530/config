@@ -1,8 +1,12 @@
 management:
-  endpoint:
+  endpoints:
     web:
       exposure:
         include: "*"
+  endpoint:
+    refresh:
+      enabled: true
+
 accounts:
   message: "Welcome to the Microservices"
   contactDetails: 
