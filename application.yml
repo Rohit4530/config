@@ -3,7 +3,15 @@ management:
     web:
       exposure:
         include: "*"
+  health: 
+    readiness-state:
+      enable: true
+    liveness-state:
+      enable: true
   endpoint:
+    health:
+      probes:
+        enable: true
     refresh:
       enabled: true
 
