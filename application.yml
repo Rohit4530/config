@@ -1,4 +1,8 @@
-
+management:
+  endpoint:
+    web:
+      exposure:
+        include: "*"
 accounts:
   message: "Welcome to the Microservices"
   contactDetails: 
