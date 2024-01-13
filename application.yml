@@ -1,19 +1,8 @@
 management:
-  endpoints:
+  endpoint:
     web:
       exposure:
         include: "*"
-  health:
-    probes:
-      enabled: true
-    refresh:
-      enabled: true
-  endpoint:
-    health:
-      readiness-state:
-        enabled: true
-      liveness-state:
-        enabled: true
 accounts:
   message: "Welcome to the Microservices"
   contactDetails: 
